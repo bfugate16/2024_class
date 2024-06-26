@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Brittany\\OneDrive\\Documents\\code\\2024_class\\webapp_02\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Brittany\\OneDrive\\Documents\\code\\2024_class\\webapp_02\\wwwroot\\images\\library.jpg",
+      "PackagePath": "staticwebassets\\images\\library.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Brittany\\OneDrive\\Documents\\code\\2024_class\\webapp_02\\wwwroot\\index.css",
+      "PackagePath": "staticwebassets\\index.css"
+    },
+    {
+      "Id": "C:\\Users\\Brittany\\OneDrive\\Documents\\code\\2024_class\\webapp_02\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\Brittany\\OneDrive\\Documents\\code\\2024_class\\webapp_02\\wwwroot\\index.js",
+      "PackagePath": "staticwebassets\\index.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.webapp_02.props",
+      "PackagePath": "build\\webapp_02.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.webapp_02.props",
+      "PackagePath": "buildMultiTargeting\\webapp_02.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.webapp_02.props",
+      "PackagePath": "buildTransitive\\webapp_02.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.webapp_02.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

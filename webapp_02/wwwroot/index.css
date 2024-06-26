@@ -1,0 +1,200 @@
+/* Header styles */
+header {
+    background-color: #e9e5cd;
+    /* Light gray background color */
+    padding: 10px 0;
+    /* Padding for top and bottom */
+    border-bottom: 1px solid #ccc;
+    /* Bottom border */
+}
+
+
+
+footer {
+    background-color: #e9e5cd;
+    border-top: solid 10px #553b08;
+    border-bottom: solid 10px #553b08;
+    padding: 20px;
+    height: 108px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+#nav-page-01 h4 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+main {
+    height: 544px;
+    background-color: #e9e5cd;
+    background-image: url(images/library.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 545px;
+}
+
+.btn-my-sort {
+    margin: -6px 0 0 8px;
+    padding: 0 4px 1px 4px;
+}
+
+
+
+#form-book-insert {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    width: 350px;
+    /* Adjust the width as needed */
+    height: 350px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#form-book-update {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    width: 600px;
+    /* Adjust the width as needed */
+    height: 620px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.col-2 {
+    position: absolute;
+    top: 10px;
+    /* Adjust the top position as needed */
+    left: 10px;
+    /* Adjust the left position as needed */
+    text-align: left;
+}
+
+.col-2 button {
+    width: 65px;
+    border-top-right-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+    color: white;
+    background-color: grey;
+    /* Example button background color */
+    border: none;
+    /* Remove border */
+    margin-right: 10px;
+    /* Optional margin between buttons */
+    display: inline-block;
+    /* Display buttons inline */
+}
+
+.col-2 {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    display: flex;
+    /* Use flexbox for layout */
+}
+
+/* #button-page-next {
+     width: 60px;
+     border-top-right-radius: 0.25rem;
+     border-bottom-right-radius: 0.25rem;
+     color: white;
+
+ }
+
+ #button-page-previous {
+     width: 65px;
+     border-top-right-radius: 0.25rem;
+     border-bottom-right-radius: 0.25rem;
+
+     color: white
+ }
+
+ #button-books-show-all {
+     width: 65px;
+     border-top-right-radius: 0.25rem;
+     border-bottom-right-radius: 0.25rem;
+     : left;
+     color: white;
+ }
+
+ #button-books-clear {
+     width: 65px;
+     border-top-right-radius: 0.25rem;
+     border-bottom-right-radius: 0.25rem;
+     position: left;
+     color: white;
+ }
+
+ #button-book-insert {
+     width: 65px;
+     border-top-right-radius: 0.25rem;
+     border-bottom-right-radius: 0.25rem;
+     position: left;
+     color: white;
+ } 
+
+#input-page {
+    width: 50px;
+    border-left: none;
+    border-right: none;
+    border-top: solid 1px darkgray;
+    border-bottom: solid 1px darkgray;
+    border-radius: 0;
+    text-align: center;
+}
+
+#select-page-size {
+    border-color: darkgray;
+    font-size: .825rem;
+}
+
+#book-table-wrapper {
+    height: 450px;
+    overflow-y: auto;
+    overflow-x: hidden;
+
+}
+
+#book-table thead {
+    position: sticky;
+    top: 0;
+}
+
+#div-pagination-message {
+    font-size: .875rem;
+}
+
+
+.my-validation {
+    font-size: 0.65rem;
+    color: red;
+}
+
+/* .col-3 {
+     position: absolute;
+     right: 0;
+ }
+
+ .col-8 {
+     display: flex;
+     align-items: center;
+ }
+
+ .col8 {
+     margin-bottom: 0;
+ }
+
+ .text-end {
+     text-align: end;
+     /* Align content to the right */
