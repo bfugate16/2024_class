@@ -1,0 +1,25 @@
+using Microsoft.AspNetCore.Mvc;
+using System.Collections.Generic;
+
+namespace webapi_02.Controllers
+{
+    [ApiController]
+    [Route("readinglist")]
+    public class readinglistController : ControllerBase
+    {
+        private static List<Book> wishlist = new List<Book>();
+
+        [HttpPost("add-to-reading-list")]
+        public IActionResult AddToReadingList([FromBody] Book book)
+        {
+            readinglist.Add(book);
+            return Ok(new { message = "Book added to reading list" });
+        }
+    }
+
+    public class Book
+    {
+        public string Title { get; set; }
+        public string Author { get; set; }
+    }
+}
